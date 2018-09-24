@@ -1,0 +1,472 @@
+body{
+	background-color: #e9e9e9;
+	margin: 0;
+	color: black;
+}
+.header{
+	background-color: #1a2732;
+	height: auto;
+	color: white;
+	width: 100%;
+	float: left;
+}
+.header-wrapper{
+	margin: 0 auto;
+	width: 95%;
+	clear: both;
+}
+.header li a.logo{
+	font-size: 22px;
+    font-weight: 300;
+    color: #fed189;
+    float: left;
+    text-transform: uppercase;
+}
+.header li a.sign-out{
+	margin-top: 2%;
+}
+.header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.header li {
+	float: left;
+}
+.header li a {
+	display: block;
+	font-family: century gothic;
+	font-size: 15px;
+	color: white;
+	padding: 25px 20px;
+	text-decoration: none;
+}
+.side-bar-left{
+	float: left;
+	width: 18%;
+    height: 800px;
+    background: #394a59;
+}
+.image{
+	height: 125px; 
+	width: 125px; 
+	margin-top: 15%; 
+	border-radius: 100%; 
+	border: 1px solid white;
+}
+.side-bar-left ul.sidebar-menu {
+	display: block;
+    list-style-type: none;
+}
+.side-bar-left li {
+	float: left;
+}
+.side-bar-left li a {
+	display: block;
+	font-family: century gothic;
+	font-size: 22px;
+	color: white;
+	padding: 10px 0px;
+	text-decoration: none;
+}
+.side-bar-left li a:hover {
+	color: #7ab1e0;
+}
+.dashboard-title{
+	float: left;
+	height: auto;
+	width: 82%;
+	padding: 0.5%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+	font-family: century gothic;
+	color: grey;
+}
+.dashboard-title h2{
+	margin-left: 2%;
+}
+.dashboard-title a{
+	text-decoration: none;
+	float: right;
+	margin-right: 4%;
+	color: grey;
+}
+.dashboard-title a:hover{
+	color: #1a2732;
+	text-decoration: none;
+}
+.main-content{
+	float: left;
+	height: auto;
+	width: 65%;
+	padding: 1%;
+	font-family: century gothic;
+	color: grey;
+}
+.main-content-signup{
+	float: left;
+	height: auto;
+	width: 80%;
+	padding: 3%;
+	margin-top: 2%;
+	margin-left: 10%;
+	background-color: white;
+	border: 1px solid grey;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+	font-family: century gothic;
+	color: grey;
+}
+.main-content-signup input[type=text]{
+	width: 100%;
+	padding: 8px 15px;
+	color: black;
+	display: inline-block;
+	font-family: century gothic;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background: rgb(255, 255, 255); /* Fallback for older browsers without RGBA-support */
+    background: rgba(255, 255, 255, 0.8);
+}
+.main-content-signup input[type=password]{
+	width: 100%;
+	padding: 8px 15px;
+	color: black;
+	display: inline-block;
+	font-family: century gothic;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background: rgb(255, 255, 255); /* Fallback for older browsers without RGBA-support */
+    background: rgba(255, 255, 255, 0.8);
+}
+.main-content-signup input[type=submit] {
+	width: 100%;
+	background-color: #3c3e45;
+	color: white;
+	font-family: century gothic;
+	padding:8px 15px;
+	border: 1px solid #ccc ;
+	border-radius: 4px;
+	cursor: pointer;
+}
+td.signup{
+	width: 400px;
+	padding: 2%;
+	color: black;
+	background-color: white;
+	font-family: century gothic;
+	text-align: left;
+}
+.main-content-add-schedule{
+	float: left;
+	height: auto;
+	width: 80%;
+	padding: 3%;
+	margin-top: 2%;
+	margin-left: 10%;
+	background-color: white;
+	border: 1px solid grey;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+	font-family: century gothic;
+	color: grey;
+}
+.main-content-add-schedule input[type=text],select{
+	width: 100%;
+	padding: 12px 15px;
+	color: black;
+	display: inline-block;
+	font-family: century gothic;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background: rgb(255, 255, 255); /* Fallback for older browsers without RGBA-support */
+    background: rgba(255, 255, 255, 0.8);
+}
+td.schedule{
+	width: 400px;
+	padding: 1%;
+	color: black;
+	background-color: white;
+	font-family: century gothic;
+	text-align: left;
+}
+.main-content-add-schedule input[type=submit] {
+	width: 100%;
+	background-color: #3c3e45;
+	color: white;
+	font-family: century gothic;
+	padding:8px 15px;
+	border: 1px solid #ccc ;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.main-content-add-reservation{
+	float: left;
+	height: auto;
+	width: 80%;
+	padding: 3%;
+	margin-top: 2%;
+	margin-left: 10%;
+	border: 1px solid grey;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+	font-family: century gothic;
+	color: grey;
+}
+.main-content-add-reservation input[type=text],select{
+	width: 100%;
+	padding: 10px 15px;
+	color: black;
+	display: inline-block;
+	font-family: century gothic;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background: rgb(255, 255, 255); /* Fallback for older browsers without RGBA-support */
+    background: rgba(255, 255, 255, 0.8);
+}
+.main-content-add-reservation textarea{
+	width: 100%;
+	height: 100px;
+	padding: 8px 15px;
+	color: black;
+	display: inline-block;
+	font-family: century gothic;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background: rgb(255, 255, 255); /* Fallback for older browsers without RGBA-support */
+    background: rgba(255, 255, 255, 0.8);
+    resize: none;
+}
+td.reserve{
+	width: 400px;
+	padding: 1%;
+	color: black;
+	background-color: white;
+	font-family: century gothic;
+	text-align: left;
+}
+.main-content-add-reservation input[type=submit] {
+	width: 100%;
+	background-color: #3c3e45;
+	color: white;
+	font-family: century gothic;
+	padding:8px 15px;
+	border: 1px solid #ccc ;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.main-content input[type=submit]:hover {
+	background-color: #4d4f58;
+}
+
+.danger{
+	float: center;
+	background-color: #f2dede;
+	height: auto;
+	padding: 2%;
+	width: 40%;
+	color: #a94442;
+	font-family: century gothic;
+}
+.success{
+	float: center;
+	background-color: #dff0d8;
+	height: auto;
+	padding: 2%;
+	width: 40%;
+	color: #3c763d;
+	font-family: century gothic;
+}
+.close{position:relative;top:-12px;right:-8px;color:inherit;text-decoration:none;}
+.close{float:right;font-size:21px;font-weight:700;line-height:1;color:#000;text-shadow:0 1px 0 #fff;filter:alpha(opacity=20);opacity:.3}
+.close:focus,.close:hover{color:#000;text-decoration:none;cursor:pointer;filter:alpha(opacity=50);opacity:.7}
+
+.side-bar-right{
+	float: right;
+	width: 17%;
+    height: 730px;
+    color: white;
+    font-family: century gothic;
+    background: #394a59;
+}
+button.rooms{
+	background-color: #1a2732;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    font-family: century gothic;
+    width: 30%;
+    color: white;
+    padding: 15px 20px;
+    border: 1px solid white;
+    margin: 8px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button.rooms:hover {
+    background-color: #e9e9e9;
+    color: black;
+	
+}
+table.schedule{
+	margin-top: 2%;
+	width: 100%;
+	border: 1px solid black;
+}
+th.schedule-title{
+	width: auto;
+	padding: 1%;
+	border: 1px solid black;
+	color: black;
+	background-color: #f7f7f7;
+	font-family: century gothic;
+	text-align: center;
+}
+button.add-schedule{
+	background-color: #f0ad4e;
+    font-family: century gothic;
+    width: auto;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button.add-schedule:hover {
+    background-color: #253746;
+    color: white;
+	
+}
+td.schedule-list{
+	width: auto;
+	border: 1px solid black;
+	padding: 1%;
+	color: black;
+	background-color: white;
+	font-family: century gothic;
+	text-align: center;
+}
+
+tr.user-table{
+	float: left;
+	background-color: white;
+	height: auto;
+	width: 850px;
+	padding: 0.5%;
+	margin-bottom: 1%;
+	font-family: century gothic;
+	border: 1px solid grey;
+	color: grey;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+td.info-pic{
+	float: left;
+	height: auto;
+	width: 20%;
+	padding: 0.5%;
+	font-family: century gothic;
+	color: grey;
+}
+td.info{
+	float: left;
+	height: 140px;
+	width: 25%;
+	margin-left: 5%;
+	padding: 0.5%;
+	font-family: century gothic;
+	border-right:1px solid #eee;
+	color: grey;
+}
+td.info-edit{
+	float: left;
+	height: auto;
+	width: 10%;
+	margin-left: 3.5%;
+	padding: 0.5%;
+	font-family: century gothic;
+	color: grey;
+}
+button.edit-user{
+	background-color: #f0ad4e;
+    font-family: century gothic;
+    width: 80%;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button.edit-user:hover {
+    background-color: #253747;
+    color: white;	
+}
+button.delete-user{
+	background-color: #d9534f;
+    font-family: century gothic;
+    width: 80%;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button.delete-user:hover {
+    background-color: #c61919;
+    color: white;	
+}
+button.print-schedule{
+	background-color: #009d4f;
+    font-family: century gothic;
+    width: auto;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button.print-schedule:hover {
+    background-color: #02532b;
+    color: white;
+}
+button.edit-schedule{
+	background-color: #f0ad4e;
+    font-family: century gothic;
+    width: auto;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button.edit-schedule:hover {
+    background-color: #253747;
+    color: white;
+}
+button.delete-schedule{
+	background-color: #d9534f;
+    font-family: century gothic;
+    width: auto;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button.delete-schedule:hover {
+    background-color: #c61919;
+    color: white;	
+}
+.btnx {
+    background-color: #be3939;
+    font-family: century gothic;
+    width: 100%;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.footer{
+     height: auto;
+	 width: 100%;
+	 padding: 3%;
+     font-family: century gothic;
+	 color: #fed189;
+	 float: left;
+	 background-color: #1a2732;
+}
